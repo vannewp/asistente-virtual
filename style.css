@@ -1,0 +1,79 @@
+.card {
+    width: 300px;
+    /* Ancho de la tarjeta */
+    margin: 0 auto;
+    background-color: #01233F;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra debajo de la tarjeta */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    margin-top: 10vh;
+}
+
+.welcome-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-image {
+    width: 100%;
+    /* Haz que la imagen ocupe todo el ancho de la tarjeta */
+    height: auto;
+    /* Para mantener la proporción */
+    display: block;
+
+    /* Espacio inferior */
+}
+
+.welcome-heading {
+    font-size: 24px;
+    color: #f5f5f5;
+    /* Color del texto */
+}
+
+.welcome-text,
+.welcome-subtext {
+    font-size: 15px;
+    color: #d8d8d8;
+    /* Color del texto */
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.welcome-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F27271;
+    /* Color del botón */
+    color: #000000;
+    /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.welcome-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    /* Color del botón */
+    color: #131313;
+    /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 1px solid;
+    width: 200px;
+}
+
+.welcome-button:hover {
+    background-color: #0056b3;
+    /* Color del botón al pasar el mouse */
+}
